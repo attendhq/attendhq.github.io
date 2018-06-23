@@ -124,6 +124,30 @@
         color: #000;
         text-decoration: underline;
       }
+
+      /* iPhone 6, 7, and 8 */
+      @media only screen
+      and (min-device-width: 375px)
+      and (max-device-width: 667px)
+      and (orientation: portrait) {
+        body {
+          margin: 40px auto;
+        }
+
+        #logo {
+          width: 140px;
+        }
+
+        main h1 {
+          margin: 30px auto 20px auto;
+          font-size: 45px;
+        }
+
+        main h2 {
+          font-size: 18px;
+          line-height: 30px;
+        }
+      }
     </style>
   </head>
 
