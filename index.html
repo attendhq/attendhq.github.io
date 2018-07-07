@@ -108,6 +108,23 @@
         font-size: 14px;
       }
 
+      footer {
+        margin-top: 100px;
+        font-size: 14px;
+        letter-spacing: 2px;
+      }
+
+      footer a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #999;
+      }
+
+      footer a:hover {
+        color: #000;
+        text-decoration: underline;
+      }
+
       /* iPhone 6, 7, and 8 */
       @media only screen
       and (min-device-width: 375px)
@@ -136,7 +153,7 @@
 
   <body>
     <main>
-      <img id='logo' src='different-logo.svg' alt='Different HQ logo: “different” in calligraphic handwritten red type with a pen nub doing a flourish at the end of the last letter.'>
+      <a href='/'><img id='logo' src='/different-logo.svg' alt='Different HQ logo: “different” in calligraphic handwritten red type with a pen nub doing a flourish at the end of the last letter.'></a>
 
       <h1>Write fearlessly. Be&nbsp;different.</h1>
       <h2>Do you detest Word's Track Changes feature? Discover a better way with our game-changing new writing platform.</h2>
@@ -147,20 +164,8 @@
       </form>
     </main>
 
-    <!-- Drip -->
-    <script type="text/javascript">
-      var _dcq = _dcq || [];
-      var _dcs = _dcs || {};
-      _dcs.account = '3137992';
-
-      (function() {
-        var dc = document.createElement('script');
-        dc.type = 'text/javascript'; dc.async = true;
-        dc.src = '//tag.getdrip.com/3137992.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(dc, s);
-      })();
-    </script>
-    <!-- end Drip -->
+    <footer>
+      <a href='/privacy'>Privacy</a>
+    </footer>
   </body>
 </html>
