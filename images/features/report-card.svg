@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1, 0, 0, 1, -16.964005, 0.487999)">
+    <title>Report card</title>
+    <g>
+      <title>Card</title>
+      <path style="fill: none; stroke-width: 24px; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(130, 151, 59);" d="M 86.728 62.418 C 86.728 62.418 102.497 338.371 98.555 435.611"/>
+      <path style="fill: none; stroke-width: 24px; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(130, 151, 59);" d="M 431.431 63.075 C 431.431 63.075 447.2 339.028 443.258 436.268"/>
+      <line style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 24px; stroke: rgb(130, 151, 59);" x1="98.325" y1="437.283" x2="442.384" y2="439.87"/>
+      <line style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 24px; stroke: rgb(130, 151, 59);" x1="87.2" y1="59.154" x2="431.259" y2="61.741"/>
+    </g>
+    <g>
+      <title>Lines</title>
+      <line style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 24px; stroke: rgb(130, 151, 59);" x1="128.712" y1="106.294" x2="198.772" y2="106.821"/>
+      <line style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 24px; stroke: rgb(130, 151, 59);" x1="135.542" y1="152.851" x2="205.602" y2="153.378"/>
+      <line style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 24px; stroke: rgb(130, 151, 59);" x1="139.542" y1="202.851" x2="209.602" y2="203.378"/>
+      <line style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 24px; stroke: rgb(130, 151, 59);" x1="141.542" y1="252.851" x2="211.602" y2="253.378"/>
+      <line style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 24px; stroke: rgb(130, 151, 59);" x1="144.695" y1="302.12" x2="398.212" y2="304.026"/>
+      <line style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 24px; stroke: rgb(130, 151, 59);" x1="145.39" y1="350.375" x2="398.907" y2="352.281"/>
+      <line style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 24px; stroke: rgb(130, 151, 59);" x1="145.699" y1="396.662" x2="399.216" y2="398.568"/>
+    </g>
+    <g transform="matrix(0.396702, 0, 0, 0.396702, 214.992386, 82.84549)">
+      <title>Card</title>
+      <path style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 60.4988px; stroke: rgb(130, 151, 59);" d="M 86.728 62.418 C 86.728 62.418 102.497 338.371 98.555 435.611"/>
+      <path style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 60.4988px; stroke: rgb(130, 151, 59);" d="M 431.431 63.075 C 431.431 63.075 447.2 339.028 443.258 436.268"/>
+      <line style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 60.4988px; stroke: rgb(130, 151, 59);" x1="98.325" y1="437.283" x2="442.384" y2="439.87"/>
+      <line style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 60.4988px; stroke: rgb(130, 151, 59);" x1="87.2" y1="59.154" x2="431.259" y2="61.741"/>
+    </g>
+  </g>
+</svg>

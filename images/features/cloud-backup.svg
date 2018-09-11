@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1, 0, 0, 1, 0, 60)">
+    <title>Arrow</title>
+    <path d="M 213.52 158.012 C 218.087 148.468 233.07 131.235 233.429 128.158 C 227.654 132.199 299.639 258.604 301.709 257.155 C 303.749 253.389 150.154 268.604 146.964 274.49 C 146.473 278.698 156.353 257.014 167.235 239.94" style="fill: none; stroke: rgb(130, 151, 59); stroke-width: 24px; stroke-linecap: round; stroke-linejoin: round;" transform="matrix(-0.47642, -0.879218, 0.879218, -0.47642, 153.975925, 494.872248)"/>
+    <path d="M 285.611 232.931 C 268.34 231.361 268.285 349.323 280.546 350.438 C 283.184 349.213 200.727 348.933 195.455 350.438 C 200.116 355.876 204.409 246.753 193.429 233.943" style="stroke: rgb(130, 151, 59); stroke-linecap: round; stroke-linejoin: round; stroke-width: 24px; fill: none;"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 20)">
+    <title>Cloud</title>
+    <path style="fill: none; stroke: rgb(130, 151, 59); stroke-width: 24px; stroke-linecap: round; stroke-linejoin: round;" d="M 62.175 306.721 C 6.727 234.481 53.69 127.366 144.355 146.04"/>
+    <path d="M 145.229 145.034 C 163.091 116.073 185.251 78.154 228.036 77.595 C 274.904 76.983 326.811 106.012 351.965 133.556" style="fill: none; stroke: rgb(130, 151, 59); stroke-width: 24px; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path style="fill: none; stroke: rgb(130, 151, 59); stroke-width: 24px; stroke-linecap: round; stroke-linejoin: round;" d="M 351.566 135.269 C 444.435 133.945 504.177 238.84 464.126 302.994"/>
+    <path d="M 63.062 307.97 C 48.654 307.561 113.965 312.339 186.964 316.193 M 282.115 320.298 C 360.73 322.017 436.491 320.199 463.58 309.124" style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 24px; stroke: rgb(130, 151, 59); fill: none;"/>
+  </g>
+</svg>
