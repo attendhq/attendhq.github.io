@@ -77,6 +77,8 @@
 
       main form {
         margin: 45px auto 0 auto;
+        position: relative;
+        padding-bottom: 27px;
       }
 
       main form input[type=text] {
@@ -90,6 +92,13 @@
         vertical-align: middle;
         line-height: 40px;
         width: 300px;
+      }
+
+      main form label {
+        position: absolute;
+        width: 300px;
+        top: 65px;
+        color: #7A7A7A;
       }
 
       main form button {
@@ -205,7 +214,8 @@
 
     <main>
       <form action='https://www.getdrip.com/forms/685787358/submissions' method='POST'>
-        <input type='text' placeholder='Your email.' name='fields[email]'>
+        <label for='email_input_1'>I will never sell or give away your email.</label>
+        <input id='email_input_1' type='text' placeholder='Your email.' name='fields[email]'>
         <button>Notify me!</button>
       </form>
 
@@ -238,7 +248,8 @@
       </ul>
 
       <form action='https://www.getdrip.com/forms/685787358/submissions' method='POST'>
-        <input type='text' placeholder='Your email.' name='fields[email]'>
+        <label for='email_input_2'>I will never sell or give away your email.</label>
+        <input id='email_input_2' type='text' placeholder='Your email.' name='fields[email]'>
         <button>Notify me!</button>
       </form>
     </main>
