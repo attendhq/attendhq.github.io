@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /homeschool-world
+Disallow: /homeschool-world.html
