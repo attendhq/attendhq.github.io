@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125029109-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-125029109-1');
+    </script>
+
+    <title>Attend</title>
+    <meta name='viewport' content='initial-scale=1'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Exo+2:300' rel='stylesheet'>
+    <link rel='icon' href='favicon.png'>
+
+    <style>
+      html, body {
+        box-sizing: border-box;
+        margin: 0;
+        font-family: 'Exo 2';
+        font-weight: 300;
+      }
+
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+
+      ::-webkit-input-placeholder {
+        color: #AAA;
+      }
+
+      ::-moz-placeholder {
+        color: #AAA;
+      }
+
+      :-ms-input-placeholder {
+        color: #AAA;
+      }
+
+      :-moz-placeholder {
+        color: #AAA;
+      }
+
+      body {
+        text-align: center;
+      }
+
+      body p {
+        font-size: 18px;
+        line-height: 24px;
+      }
+
+      aside p {
+        padding: 10px;
+        margin: 0 auto;
+        background-color: #82973B;
+        color: white;
+      }
+
+      header, main, footer {
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+
+      header {
+        margin-top: 30px;
+      }
+
+      #logo {
+        width: 300px;
+        margin: 0 auto;
+      }
+
+      header h1 {
+        margin: 60px auto 40px auto;
+        padding: 0 10px;
+        font-size: 60px;
+        font-weight: 600;
+        letter-spacing: 5px;
+        color: #82973B;
+      }
+
+      header h2 {
+        margin: 40px auto;
+        padding: 0 20px;
+        font-size: 25px;
+        color: #7A7A7A;
+        line-height: 40px;
+        max-width: 800px;
+      }
+
+      main h1 {
+        margin: 40px auto;
+        font-size: 22px;
+        color: #82973B;
+      }
+
+      main p {
+        margin: 20px auto;
+        max-width: 800px;
+      }
+
+      main form {
+        margin: 40px auto 0 auto;
+        position: relative;
+        padding-bottom: 27px;
+      }
+
+      main form input[type=text] {
+        text-align: center;
+        border: solid #999 1px;
+        font-size: 21px;
+        height: 60px;
+        border-radius: 5px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        vertical-align: middle;
+        line-height: 40px;
+        width: 300px;
+      }
+
+      main form label {
+        position: absolute;
+        width: 300px;
+        top: 65px;
+        color: #7A7A7A;
+      }
+
+      main form button {
+        background: #82973B;
+        color: #FFF;
+        height: 60px;
+        border: none;
+        border-radius: 5px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        vertical-align: middle;
+        line-height: 60px;
+        cursor: pointer;
+        padding: 0 30px;
+        font-size: 21px;
+      }
+
+      main ul.features {
+        margin-top: 40px;
+
+        display: flex;
+        display: -ms-flexbox;
+
+        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+
+        justify-content: center;
+        -ms-flex-pack: center;
+      }
+
+      main ul.features li {
+        margin: 20px;
+        width: 300px;
+      }
+
+      main ul.features li h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+      }
+
+      main ul.features li img {
+        width: 100px;
+      }
+
+      main ul.features li p {
+        color: #5A5A5A;
+        line-height: 24px;
+      }
+
+      main section#profile p {
+        text-align: left;
+      }
+
+      footer {
+        margin: 30px auto;
+        font-size: 14px;
+        letter-spacing: 2px;
+      }
+
+      footer a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #999;
+      }
+
+      footer a:hover {
+        color: #000;
+        text-decoration: underline;
+      }
+
+      /* iPhone 6, 7, and 8 */
+      @media only screen
+      and (min-device-width: 375px)
+      and (max-device-width: 667px)
+      and (orientation: portrait) {
+        body {
+          margin: 40px auto;
+        }
+
+        #logo {
+          width: 140px;
+        }
+
+        header h1 {
+          margin: 30px auto 20px auto;
+          font-size: 35px;
+        }
+
+        header h2 {
+          font-size: 18px;
+          line-height: 30px;
+        }
+
+        main form input[type=text] {
+          font-size: 14px;
+          height: 40px;
+          width: 200px;
+        }
+
+        main form button {
+          height: 40px;
+          line-height: 40px;
+          padding: 0 15px;
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <aside>
+      <p>Faithful Scholars members can get 60% off during the beta and 20% off thereafter</p>
+    </aside>
+
+    <header>
+      <a href='/'><img id='logo' src='/images/logo.svg' alt='Attend logo: “Attend” in serif type with the “A” backdropped by a green circle and behind a darker green stroke.'></a>
+
+      <h1>Homeschoolers! Get an A+ as a parent. Take the headache out of legal requirements.</h1>
+      <h2>Use our easy as pie mobile app to take attendance, keep records, and keep your kid in legal compliance.</h2>
+    </header>
+
+    <main>
+      <section id='intro'>
+        <p>Coming June 2019. Submit your email address using the box below to get an email when it's ready.</p>
+
+        <form action='https://www.getdrip.com/forms/685787358/submissions' method='POST'>
+          <label for='email_input_1'>I will never sell or give away your email.</label>
+          <input id='email_input_1' type='text' placeholder='Email address' name='fields[email]'>
+          <input type='hidden' name='fields[page]' value='homeschool-world'>
+          <button>Notify me!</button>
+        </form>
+      </section>
+
+      <section id='features'>
+        <h1>Features</h1>
+
+        <p>Not convinced? Here are some of the features which will help you keep on top of all the homeschooling requirements in your state and stay in control.</p>
+
+        <ul class='features'>
+          <li>
+            <img src='/images/features/gpa.svg' alt='Attend feature icon: green “A+” encircled in green.'>
+            <h1>Keep running GPAs</h1>
+            <p>Stop wasting hours calculating GPAs by hand every time report cards are due.</p>
+          </li>
+          <li>
+            <img src='/images/features/report-card.svg' alt='Attend feature icon: green line art of paper with lines on it.'>
+            <h1>Generate report cards</h1>
+            <p>Effortlessly create professional report cards.</p>
+          </li>
+          <li>
+            <img src='/images/features/attendance.svg' alt='Attend feature icon: green line art of circle head on top of simple torso next to a tick.'>
+            <h1>Take attendance</h1>
+            <p>Tap, tap, done! Focus on the teaching, not the admin.</p>
+          </li>
+          <li>
+            <img src='/images/features/portfolio.svg' alt='Attend feature icon: green line art of trumpet on top of backpack on top of paper.'>
+            <h1>Curate student portfolios</h1>
+            <p>Include text, images, audio, video.</p>
+          </li>
+          <li>
+            <img src='/images/features/cloud-backup.svg' alt='Attend feature icon: green line art of crude cloud with an arrow pointing up on top of it.'>
+            <h1>Backup to the cloud</h1>
+            <p>Safeguard your children's academic career and produce any record for the BoE at will.</p>
+          </li>
+        </ul>
+
+        <form action='https://www.getdrip.com/forms/685787358/submissions' method='POST'>
+          <label for='email_input_2'>I will never sell or give away your email.</label>
+          <input id='email_input_2' type='text' placeholder='Email address' name='fields[email]'>
+          <input type='hidden' name='fields[page]' value='homeschool-world'>
+          <button>Notify me!</button>
+        </form>
+      </section>
+
+      <section id='profile'>
+        <h1>Who am I?</h1>
+
+        <p>My name is Habib, and homeschooling, to me, represents an opportunity to improve on everything that today's schools do poorly, as well as an opportunity to tailor the experience to each child.</p>
+
+        <img src='/images/habib.png' alt='Photo of Habib, founder of Attend HQ.'>
+
+        <p>I never did very well in school. In fact, I hated school, despite my love of learning. I wish that every child can experience a much better learning environment tailored to their needs.</p>
+
+        <p>Unfortunately, there is a dearth of mobile record-keeping options for homeschoolers, and I would love to do my part to make homeschooling a more viable option for parents.</p>
+
+        <p>I am a software developer of ~6 years and I have the professional expertise to pull this off, but I need your help as a homeschooler to beta test the app, and give feedback.</p>
+
+        <form action='https://www.getdrip.com/forms/685787358/submissions' method='POST'>
+          <label for='email_input_3'>I will never sell or give away your email.</label>
+          <input id='email_input_3' type='text' placeholder='Email address' name='fields[email]'>
+          <input type='hidden' name='fields[page]' value='homeschool-world'>
+          <button>Notify me!</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <a href='/privacy'>Privacy</a>
+    </footer>
+
+    <!-- Drip -->
+    <script type="text/javascript">
+      var _dcq = _dcq || [];
+      var _dcs = _dcs || {};
+      _dcs.account = '5278009';
+
+      (function() {
+        var dc = document.createElement('script');
+        dc.type = 'text/javascript'; dc.async = true;
+        dc.src = '//tag.getdrip.com/5278009.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(dc, s);
+      })();
+    </script>
+    <!-- end Drip -->
+  </body>
+</html>
